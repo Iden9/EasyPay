@@ -1,0 +1,31 @@
+{
+  "name": "@pengcunfu/epay-sdk",
+  "version": "1.0.0",
+  "description": "易支付平台 Node.js SDK，支持支付、查询、退款等功能",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "epay",
+    "payment",
+    "alipay",
+    "wechat",
+    "wxpay",
+    "易支付",
+    "支付"
+  ],
+  "author": "dx",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pengcunfu/FireNebShop.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
