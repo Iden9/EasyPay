@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '18'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@pengcunfu'
+          scope: '@iden9'
 
       - name: Install dependencies
         working-directory: ./sdk/epay

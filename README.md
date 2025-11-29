@@ -40,7 +40,7 @@ EasyPay/
 
 ```bash
 # 从 GitHub Packages 安装
-npm install @pengcunfu/epay-sdk
+npm install @iden9/epay-sdk
 
 # 或本地路径安装
 npm install file:./sdk/epay

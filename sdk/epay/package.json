@@ -1,6 +1,6 @@
 {
-  "name": "@pengcunfu/epay-sdk",
-  "version": "1.0.0",
+  "name": "@iden9/epay-sdk",
+  "version": "1.0.1",
   "description": "易支付平台 Node.js SDK，支持支付、查询、退款等功能",
   "main": "index.js",
   "types": "index.d.ts",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pengcunfu/FireNebShop.git"
+    "url": "https://github.com/Iden9/EasyPay.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

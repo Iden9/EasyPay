@@ -9,13 +9,13 @@
 1. 创建或编辑项目根目录的 `.npmrc` 文件：
 
 ```
-@pengcunfu:registry=https://npm.pkg.github.com
+@iden9:registry=https://npm.pkg.github.com
 ```
 
 2. 登录 GitHub Packages（需要 GitHub Personal Access Token）：
 
 ```bash
-npm login --scope=@pengcunfu --registry=https://npm.pkg.github.com
+npm login --scope=@iden9 --registry=https://npm.pkg.github.com
 # Username: 你的 GitHub 用户名
 # Password: 你的 Personal Access Token (需要 read:packages 权限)
 ```
@@ -23,9 +23,9 @@ npm login --scope=@pengcunfu --registry=https://npm.pkg.github.com
 3. 安装包：
 
 ```bash
-npm install @pengcunfu/epay-sdk
+npm install @iden9/epay-sdk
 # 或
-yarn add @pengcunfu/epay-sdk
+yarn add @iden9/epay-sdk
 ```
 
 ### 本地路径安装
@@ -39,7 +39,7 @@ npm install file:./sdk/epay
 ## 快速开始
 
 ```javascript
-const EpaySDK = require('@pengcunfu/epay-sdk');
+const EpaySDK = require('@iden9/epay-sdk');
 
 // 创建实例
 const epay = new EpaySDK({
@@ -236,7 +236,7 @@ EpaySDK.DeviceTypes.WECHAT  // 'wechat'
 SDK 包含完整的 TypeScript 类型定义。
 
 ```typescript
-import EpaySDK, { CreatePaymentOptions, OrderInfo } from '@pengcunfu/epay-sdk';
+import EpaySDK, { CreatePaymentOptions, OrderInfo } from '@iden9/epay-sdk';
 
 const epay = new EpaySDK({
   pid: '1001',
